@@ -54,22 +54,6 @@ Good:
 3. Run `npm test -- auth.spec.ts`
 ```
 
-### 3. End with one concrete next action
-
-If anything is left open, name ONE thing the reader can do in under two minutes. Even "open the file" counts.
-
-Bad: "Hope that helps. Let me know if you want to dig deeper."
-Good: "Next: run `npm test` and paste the first failing line."
-
-### 4. Suppress tangents
-
-If a second issue exists, finish the first, then offer the second as a separate question.
-
-Bad: "Here's the fix. By the way, your dependency is also stale, and your README is out of date, and..."
-Good: "Here's the fix. Separately: there is also a stale dependency. Want me to handle that next?"
-
-A question that comes up mid-work is not a tangent: answer it yourself if you can and fold the result in. If it still needs the reader, surface it once, at the end.
-
 ### 5. Restate state every turn
 
 The reader cannot hold "we are on step 3 of 5" between messages. Restate it.
@@ -99,10 +83,6 @@ Never use "Uh oh," "Oh no," or "There seems to be a problem." State cause and fi
 
 Bad: "Uh oh, the test is failing. There seems to be an issue..."
 Good: "Test fails at `auth.spec.ts:42`: expected 200, got 401. Cause: missing auth header. Fix: add `Authorization: Bearer ${token}` to the request."
-
-### 9. Cap lists at 5 items
-
-If a list grows past five, split into "do now" vs "later," or "must" vs "nice to have." Five items ranked beats ten unranked.
 
 ### 10. No preamble, no recap, no closing pleasantries
 
