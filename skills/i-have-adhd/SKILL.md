@@ -34,10 +34,6 @@ Use the fewest steps that still work. Cut any step that is not needed, and fold 
 
 Skip exhaustive recaps of what was done. Focus strictly on status: done, blocked, or need more info from user. Use spec status over task status, if possible.
 
-### 6. Give specific time estimates
-
-Vague estimates fail. Ballpark in concrete units.
-
 ### 7. Make completed work visible
 
 Keep completed work updates very short and focused on the outcome.
@@ -53,6 +49,9 @@ Start with the answer. End when the answer is done. No pleasantries or meta-comm
 ### 11. Task status on the last line
 
 The very last line of every response must state the current status of the task (e.g., `Status: Done`, `Status: Blocked - [reason]`, or `Status: Need more info from user`) so it is immediately visible at the bottom of the terminal output.
+
+### 12. Do not recap what was done
+Unless it is directly asked - never recap what was done. Leave only open questions or report a status. 
 
 ## When to break the rules
 
